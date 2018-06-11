@@ -217,45 +217,30 @@
           
            }
         background-image: url('../image/woman.png');
-        background-position:  center ; 
-         background-size: 100% 280%;
-        background-repeat: no-repeat;
-       
+        background-position:right center; 
+        background-size: cover;
+       #slider{
+           .carousel-inner{
+               height: 400px;
+               .slide{
+                   text-align: center;
+                   padding: 0 30%;
 
-.alerts-container {
-	position: fixed;
-	top: 1em;
-	right: 2em;
-	z-index: 9999;
-}
+                   .image{
+                    border-radius: 50%;
+                    margin-top: 10%;
+                   }
+                   .info{
+                       color: white;
+                     
+                   }
+               }
+           }
+       }
 
 
-.carousel-item .img-fluid {
-  width:100%;
-}
 
 
-  
-
-
-.carousel-item a {
-  display: block;
-  width:100%;
-    .backface{
-        opacity: 0;
-      
-    }
-    .carousel-caption{
-        color: white;
-        margin-bottom: 10%;
-        img{
-            border-radius: 50%;
-        }
-    }
-}
-
-      
-            
     }
  //section5>>>
 
