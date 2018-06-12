@@ -44,6 +44,7 @@
                 border: none;
                 color: white;
                 background: transparent;
+                transition-duration: 0.6s;
                 &:hover{
                     background-color: #f75f0d;
                   
@@ -246,82 +247,111 @@
 
 
     .section6{
-       // border: 1px solid;
-       
-        .content{
-            width: 100%;
-            text-align: center;
-            .box{
-                max-width: 450px;
-                display: inline-block;
-                margin: 5% 0;
-                .title{
-                    margin-bottom: 2%;
-                    font-size: 28px;
-                    color: #3B434C;
-                    font-weight: 500;
-                    span{
-                        margin-left: 3px;
-                        color: #f75f0d;
-                    }
+      .content{
+          text-align: center;
+        .box{
+            max-width: 450px;
+            display: inline-block;
+            margin: 5% 0;
+            .title{
+                margin-bottom: 2%;
+                font-size: 28px;
+                color: #3B434C;
+                span{
+                    margin-left: 3px;
+                    color:  #f75f0d;
+                }
+            }
+        }
 
-
-                    }
-                  
+        .slider{
+            position: relative;
+            .slick-list{
+                padding-top: 20px;
                 
             }
+            
             .response{
-                        height: 350px!important;
-                       
-                      
-                    .sliderImgBox{
-                            margin: 0 4%;
-                      
-                        .sliderImg{
-                            width: 100%;
-                            height: 265px;
-                            border-radius: 20px;
-                            cursor: pointer;
-                            
-                            }
-                           
-                            
+            
+                .slide{
+                    cursor: pointer;
+                    text-align: center;
+                    margin: 4%;
+                        .img-content{
+                            height: 290px;
+                            position: relative;
+                            border-bottom: 4px solid white;
+                            transition-duration: 0.6s;
                         }
-                        &:hover{
-                            .facebook{background: #205B9F!important;}
-                            .twitter{background: #75D2F0!important;}
-                            .google{background: #FF3921!important;}
-                            .title{color: #3B434C;}
-                         
-                            }
-                    }
-                  
+                        .info{
+                            position: relative;
+                        }
                     
-
-                    .title{
-                        margin-top: 7%;
-                        color: #9DA1A5;
-                        transition-duration: 0.5s;
+                    img{
+                        height: 255px;
+                        width: 100%;
+                        border-radius: 7px;
+                        transition-duration: 0.6s;
+                        position: absolute;
+                        bottom: 0;
                         
                     }
+                
+                    .title{
+                        margin: 5%;
+                        color: #B5B8BC;
+                        transition-duration: 0.6s;
+                    }
                     .sosial{
-                        width: 23px;
-                        height: 23px;
+                        margin: 3%;
+                        border:1px solid;
                         border-radius: 50%;
-                       // border: 1px solid;
-                       padding-top: 4.3px;
-                       margin: 0 3%;
                         background: #9DA1A5;
                         color: white;
                         font-size: 14px;
-                        transition-duration: 0.5s;
-                       
+                        cursor: pointer;
+                        transition-duration: 0.6s;
+                        outline: none;
+                        i{
+                            width: 20px;
+        
+                        }
                     }
-                  
+                    .text{
+                        margin-top: 2%;
+                        color: #B5B8BC;
+                        transition-duration: 0.6s;
+                    }
+                        &:hover{
+                            .img-content{
+                                border-bottom: 4px solid #F7600E;
+                            img{
+                            
+                                height: 290px;
+                                border-radius: 7px;
+                            
+                            }
+                        }
+                            .title{
+                                color: #3B434C;
+                            }
+                            .sosials{
+                                .facebook{background: #205B9F}
+                                .twitter{background: #00ACE3}
+                                .google{background: #FF4933}
+                            }
+                            .text{
+                                color: #6C7279;
+                            }
+                        }
+        
+                }
             }
-            
         }
-    }
+       }
+    }  
+ }
+
 
     //section6 >>>
 

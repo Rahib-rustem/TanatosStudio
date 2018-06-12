@@ -9,8 +9,8 @@ $(".regular").slick({
     slidesToScroll: 3
   });
 
-//767
-  
-  
+
   
   })
+
+  
