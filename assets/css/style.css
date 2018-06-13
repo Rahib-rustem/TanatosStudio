@@ -22,15 +22,16 @@ body {
   background-size: 100% 170%;
   background-repeat: no-repeat; }
   #main .section1 .background-style {
-    background-color: #3b434b;
+    background: #3b434b;
     opacity: 0.8; }
   #main .section1 .content {
     width: 100%;
     text-align: center; }
     #main .section1 .content .box {
+      max-width: 450px;
       display: inline-block;
-      max-width: 440px;
-      padding-top: 8%;
+      margin: 5% 0;
+      padding-top: 5%;
       color: white; }
       #main .section1 .content .box .title {
         font-size: 39px;
@@ -79,9 +80,9 @@ body {
   background-repeat: no-repeat; }
   #main .section3 .background-style {
     min-height: 320px;
-    background-color: #3b434b;
-    opacity: 0.8;
-    padding-top: 130px; }
+    padding-top: 130px;
+    background: #3b434b;
+    opacity: 0.8; }
   #main .section3 .content {
     text-align: center; }
     #main .section3 .content input {
@@ -154,8 +155,8 @@ body {
   background-position: right center;
   background-size: cover; }
   #main .section5 .background-style {
-    background-color: #3b434b;
-    opacity: 0.9; }
+    background: #3b434b;
+    opacity: 0.8; }
   #main .section5 #slider .carousel-inner {
     height: 400px; }
     #main .section5 #slider .carousel-inner .slide {
@@ -242,16 +243,16 @@ body {
   background-position: bottom center;
   background-repeat: no-repeat; }
   .section7 .background-style {
-    background-color: #3b434b;
+    background: #3b434b;
     opacity: 0.8; }
   .section7 .content {
     text-align: center;
     min-height: 770px; }
     .section7 .content .box {
-      color: white;
       max-width: 450px;
       display: inline-block;
-      margin: 5% 0; }
+      margin: 5% 0;
+      color: white; }
       .section7 .content .box .title {
         margin-bottom: 2%;
         font-size: 28px; }
@@ -271,7 +272,8 @@ body {
       min-height: 200px;
       border-radius: 7px;
       outline: none;
-      border: none; }
+      border: none;
+      padding-left: 1%; }
     @media only screen and (max-width: 767px) {
       .section7 .content .form-wrapper input {
         width: 73%; } }

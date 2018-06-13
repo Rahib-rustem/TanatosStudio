@@ -16,7 +16,7 @@ body{
         cursor: pointer;
     }
     .studio-color{
-        color: #f75f0d;
+        @include textColor(color);
     }
     .menu{
         cursor: pointer;
